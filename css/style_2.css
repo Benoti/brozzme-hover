@@ -1,0 +1,113 @@
+/* !=!=!=!=!=!=!=!=!=!=!=!=!=!=  taengo social share !=!=!=!=!=!=!=!=!=!=!=!=!=!= */
+ul.entry .social-share li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ul.social-share {
+    padding:0;
+    margin:0;
+    padding-top:15px;
+    padding-left:0px!important;
+}
+
+ul.social-share li {
+    list-style:none;
+    display:inline-block;
+    margin:0 0.6em 1em 0;
+    font-size:1em;
+}
+
+ul.social-share li a {
+    font-size:14px;
+
+}
+
+ul.social-share li a, ul.social-share li a:hover{
+    text-decoration:none;
+}
+
+ul.social-share li i {
+    /*display:none;*/
+}
+
+
+.social-share li.facebook {
+
+}
+
+.social-share li.facebook a, .social-share li.twitter a,
+.social-share li.google-plus a, .social-share li.linkedin a,.social-share li.pinterest a,
+.social-share li.email-share a, .social-share li.print-share a{
+    color:#fff;
+    background:#444;
+    padding:10px 8px 8px 10px;
+    height:22px;
+    min-width:90px;
+    border-bottom:none;
+    display:block;
+}
+.social-share li.facebook a:hover {
+    background:#3b5998;
+}
+
+.social-share li.twitter {
+
+}
+
+.social-share li.twitter a:hover {
+    background:#69b5d9;
+}
+
+.social-share li.google-plus {
+
+}
+
+.social-share li.google-plus a:hover {
+    background:#d54432;
+}
+.social-share li.linkedin {
+
+}
+
+.social-share li.linkedin a:hover {
+    background:#0073ad;
+}
+
+.social-share li.pinterest a:hover{
+    background:#cf2027;
+
+}
+.social-share li.email-share a{
+    white-space: nowrap;
+    /*min-width: 155px;*/
+    /*padding-right: 20px;*/
+}
+.social-share li.email-share a:hover {
+    background:#d46f15;
+}
+.social-share li.print-share{
+
+}
+.social-share li.print-share a:hover {
+    background:#07526c;
+}
+.clearbis {
+    display:none;
+}
+
+.tss-title {
+ min-width:120px;
+ max-width:240px;
+}
+[class^="tss-title"] {
+    margin: 0.4em;
+    padding: 0.5em;
+    cursor: pointer;
+    background: none repeat scroll 0% 0% #E1E1E1;
+    text-decoration: none;
+    color: #666;
+}

@@ -1,0 +1,156 @@
+# Copyright (C) 2015 Brozzme-hover - CSS3 transitions
+# This file is distributed under the same license as the Brozzme-hover - CSS3 transitions package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brozzme-hover - CSS3 transitions 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/brozzme-hover\n"
+"POT-Creation-Date: 2015-02-02 23:04:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-02-03 00:37+0100\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Benoît Faure <dev@brozme.com>\n"
+"Language-Team: Benoît Faure <dev@brozzme.com>\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: brozzme-hover.php:150
+msgid "Brozzme Hover Settings"
+msgstr "Réglages Brozzme Hover"
+
+#: brozzme-hover.php:157
+msgid "Available options"
+msgstr "Options disponibles"
+
+#: brozzme-hover.php:158
+msgid "Enable Hover.css style"
+msgstr "Activer les styles Hover.css"
+
+#: brozzme-hover.php:158
+msgid "Activation / desactivation (will not erase settings) of the plugin."
+msgstr "Activation / désactivation (n'efface pas les réglages précédents) du plugin."
+
+#: brozzme-hover.php:159
+msgid "Activate Brozzme Hover and the editor get a new select menu (Formats) with all CSS3 transitions. Be sure that your element does not have many css class (i.e hvr-xxx). In this case, to verify and correct, turn your editor from Visual to Text and manually erase the class you want."
+msgstr "Activez Brozzme Hover et l'éditeur de texte aura un nouveau menu de sélection (Formats) avec toutes les transitions CSS3. Attention de ne pas avoir plus de une class css de transition (par ex. hvr-xxx). Dans ce cas, pour vérifier et corriger, passer de l'éditeur visuel au mode text and effacer manuellement les class en trop."
+
+#: brozzme-hover.php:160
+msgid "Nota : some selector will not work du to css limitation with effect (inline-block, margin...), ajust css properties in style.css in the css folder of the plugin."
+msgstr "Note : certaines balises ne marcheront peut-être pas à cause des limitations avec l'effet de transition (inline-block, margin...), ajuster les propriétés css dans le répertoire css du plugin."
+
+#: brozzme-hover.php:161 includes/brozzme_hover_init.php:60
+msgid "Jquery loading"
+msgstr "Chargement de Jquery"
+
+#: brozzme-hover.php:161
+msgid "Insert JavaSscript into the head or footer. Javascript is only need if you choose to include Brozzme Hover globally."
+msgstr "Insérer Javascript dans l'en-tête ou en pied de page (header ou footer). Le javascript ne se charge que si vous choisissez d'inclure Brome Hover globalement."
+
+#: brozzme-hover.php:162
+msgid "Include Brozzme Hover globally"
+msgstr "Inclure Brozzme Hover globalement"
+
+#: brozzme-hover.php:162
+msgid "add Brozzme Hover classes to elements."
+msgstr "ajouter des class Brozzme Hover aux éléments."
+
+#: brozzme-hover.php:163
+msgid "Target css class"
+msgstr "Class css cible"
+
+#: brozzme-hover.php:164
+msgid "Detect the css class name to animate in your favorite browser. Make sur to separate them with commas with <b>no space</b> before or after."
+msgstr "Détecte les class css à animer dans votre navigateur favori. Attention de les séparer par une virgule sans aucun espace avant ou après."
+
+#: brozzme-hover.php:165
+msgid "Effect"
+msgstr "Effet"
+
+#: brozzme-hover.php:165
+msgid "Choose a transition effect to apply to all targets class."
+msgstr "Choisissez un effet de transition à appliquer aux class spécifiées."
+
+#: brozzme-hover.php:166 includes/brozzme_hover_init.php:82
+msgid "Change the effect background color"
+msgstr "Changer la couleur de fond"
+
+#: brozzme-hover.php:166
+msgid "you can customize the background of some transition when need (i.e: background transitions)."
+msgstr "vous pouvez personnaliser la couleur de fond de certaines transitions (par ex. Background transitions)."
+
+#: includes/brozzme_hover_init.php:40
+msgid "Make Hover.css a part of your WordPress styles"
+msgstr "Embarquez Hover.css au coeur de vos styles WordPress"
+
+#: includes/brozzme_hover_init.php:46
+msgid "Enable Hover.css CSS3 transitions"
+msgstr "Activer les transitions CSS3 Hover.css"
+
+#: includes/brozzme_hover_init.php:53
+msgid "Enable automatic Hover transitions"
+msgstr "Activer les transitions Hover automatiquement "
+
+#: includes/brozzme_hover_init.php:67
+msgid "Target css class (separate by commas)"
+msgstr "Class CSS à animer (séparer par une virgule)"
+
+#: includes/brozzme_hover_init.php:74
+msgid "CSS3 transition Effect"
+msgstr "Effet de transition CSS3"
+
+#: includes/brozzme_hover_init.php:98
+msgid "Default (link hover)"
+msgstr "Par défaut (lien Hover)"
+
+#: includes/brozzme_hover_init.php:99
+msgid "No link Hover"
+msgstr "Pas d'effet"
+
+#: includes/brozzme_hover_init.php:109
+msgid "Default (header)"
+msgstr "Par défaut (header)"
+
+#: includes/brozzme_hover_init.php:110
+msgid "Choosen (footer)"
+msgstr "Choisi (footer)"
+
+#: includes/brozzme_hover_init.php:125
+msgid "Please Select another type"
+msgstr "Merci de sélectionner un autre type"
+
+#: includes/brozzme_hover_init.php:144
+msgid "Please Select a type"
+msgstr "Merci de sélectionner un type"
+
+#: includes/brozzme_hover_init.php:155
+msgid "Select a type above"
+msgstr "Sélectionner un type"
+
+#: includes/brozzme_hover_init.php:171
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/brozzme_hover_init.php:172
+msgid "No"
+msgstr "Non"
+
+#: includes/brozzme_hover_init.php:197
+msgid "Manage your Hover.css settings for "
+msgstr "Gérer vos réglages Hover.css pour"
+
+#: includes/brozzme_hover_init.php:207
+msgid "Brozzme Hover.css Integration"
+msgstr "Brozzme Hover.css Intégration"
+
+#. Plugin Name of the plugin/theme
+msgid "Brozzme-hover - CSS3 transitions"
+msgstr "Brozzme-hover - Transitions CSS3"
+
+#. Description of the plugin/theme
+msgid "CSS3 transitions embed on your website recursivly on structural elements, choose and play with Hover.css (Ian Lunn)"
+msgstr "Embarquez des transitions CSS3 automatiquement sur les éléments de votre site, choisissez et jouez avec Hover.css (Ian Lunn)"
+
+#. Author of the plugin/theme
+msgid "Benoît Faure"
+msgstr "Benoît Faure"
